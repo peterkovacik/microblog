@@ -7,11 +7,15 @@
         {% endif %}
     </head>
     <body>
-        <div>Microblog: <a href="/index">Home</a></div>
+        <div>
+            Microblog: 
+            <a href="/index">Home</a>
+            <a href="/login">Login</a>
+        </div>
         <hr>
         {% block content %}{% endblock %}
 
-        
+
         <!-- Link to website on local Apache web server -->
         <br>
         <a href="http://127.0.0.1">Return to localhost</a> 
